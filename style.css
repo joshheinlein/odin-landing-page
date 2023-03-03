@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    height: 72px;
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 10px 120px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.right-links {
+    display: flex;
+    gap: 10px;
+    font-size: 18px;
+}
+    
+.hero {
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 0 120px 0;
+    display: flex;
+    height: 250px;
+    justify-content: space-between;
+}
+
+.hero-left {
+    border: 1px solid #fff;  /* For debugging */
+    flex-direction: column;
+    text-align: left;
+
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.hero-text {
+    color: #f9faf8;
+    font-size: 18px;
+
+}
+
+.poke-img {
+    justify-content: flex-end;
+}
+
+img {
+    border: 1px solid #fff;  /* For debugging */
+    width: 350px;
+    height: auto;
+}
+
+.main-content {
+
+}
+
+.footer {
+    height: 72px;
+    background: #1f2937;
+    color: #f9faf8;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote {
+    height: 300px;
+    background-color: #e5e7eb;
+    font-family: 'Roboto';
+    color: #1f2937;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.text-quote {
+    width: 900px;
+    font-size: 26px;
+    font-style: italic;
+}
+
+.name-quote {
+    font-size: 16px;
+    font-weight: bold;
+    width: 900px;
+    text-align-last: right;
+
+}
+
+.cta {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex: 0;
+    padding: 50px;
+    margin: 100px;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    padding: 6px 24px;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #e5e7eb;
+    text-decoration: none;
+    font-size: 18px;
+}
