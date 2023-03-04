@@ -10,7 +10,7 @@ body {
     height: 72px;
     background-color: #1f2937;
     color: #f9faf8;
-    padding: 10px 120px 0;
+    padding: 10px 200px 0;
     display: flex;
     justify-content: space-between;
 }
@@ -22,23 +22,28 @@ body {
 
 .right-links {
     display: flex;
-    gap: 10px;
+    gap: 15px;
     font-size: 18px;
 }
     
-.hero {
+.hero-container {
     background-color: #1f2937;
     color: #f9faf8;
-    padding: 0 120px 0;
+    padding: 0 200px 0;
     display: flex;
-    height: 250px;
-    justify-content: space-between;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
 }
 
 .hero-left {
-    border: 1px solid #fff;  /* For debugging */
     flex-direction: column;
-    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+    
 
 }
 
@@ -59,26 +64,20 @@ body {
 
 img {
     border: 1px solid #fff;  /* For debugging */
-    width: 350px;
+    width: 500px;
     height: auto;
 }
 
-.main-content {
-
-}
-
-.footer {
-    height: 72px;
-    background: #1f2937;
-    color: #f9faf8;
-    font-size: 12px;
+.main-container {
+    background-color: #f9faf8;
+    color: black; 
+    padding: 0 200px 0;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    height: 250px;
 }
 
-.quote {
-    padding: 0 100 0;
+.quote-container {
+    padding: 0 200px 0;
     height: 300px;
     background-color: #e5e7eb;
     font-family: 'Roboto';
@@ -105,20 +104,35 @@ img {
 
 }
 
-.cta {
+.cta-container {
     background-color: #3882f6;
     color: #e5e7eb;
     align-items: center;
     justify-content: space-between;
     display: flex;
-    padding: 50px;
-    margin: 100px;
+    margin: 200px;
+    padding: 60px;
+}
+
+.cta1 {
+
+}
+
+.footer {
+    height: 72px;
+    background: #1f2937;
+    color: #f9faf8;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 button {
     background-color: #3882f6;
     color: white;
-    border-radius: 4px;
+    border-radius: 8px;
+    border: none;
     text-align: center;
     padding: 6px 24px;
 
